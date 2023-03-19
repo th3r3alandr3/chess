@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "homepage": "https://th3r3alandr3.github.io/chess",
   "dependencies": {
     "@react-three/drei": "^9.57.3",
     "@react-three/fiber": "^8.12.0",
