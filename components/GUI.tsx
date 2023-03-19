@@ -46,7 +46,7 @@ const GUI: React.FC<GUIProps> = ({controls}) => {
             positions: [[-3.5, 0, 2.5], [-3.5, 0, -2.5], [3.5, 0, 2.5], [3.5, 0, -2.5], [-2.5, 0, -2.5], [-2.5, 0, 2.5], [2.5, 0, -2.5], [2.5, 0, 2.5], [-1.5, 0, -2.5], [-1.5, 0, 2.5], [1.5, 0, -2.5], [1.5, 0, 2.5], [-.5, 0, -2.5], [-.5, 0, 2.5], [.5, 0, -2.5], [.5, 0, 2.5]] as [number, number, number][],
         }
     ];
-    const boardTexture = useLoader(THREE.TextureLoader, '/textures/board.jpg')
+    const boardTexture = useLoader(THREE.TextureLoader, '/chess/textures/board.jpg')
 
     return (
         <>

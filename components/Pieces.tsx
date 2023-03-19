@@ -27,7 +27,7 @@ const colorBlack = 0x00ff00;
 const Pieces: React.FC<PieceProps> = ({gltf, positions, pieceClick}) => {
     const pieces = [] as JSX.Element[]
 
-    const {scene} = useGLTF(`/models/${gltf}`);
+    const {scene} = useGLTF(`/chess/models/${gltf}`);
     const piece = initGLTF(scene);
 
     positions.forEach((position) => {
