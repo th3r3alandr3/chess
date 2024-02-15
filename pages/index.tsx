@@ -27,7 +27,7 @@ export default function Home() {
                 intensity={1}
             />
             <Environment preset="studio"/>
-            <Environment path='/' files="studio_small_03_1k.hdr"></Environment>
+            <Environment path='/chess/' files="studio_small_03_1k.hdr"></Environment>
             <CameraControls
                 minDistance={5}
                 maxDistance={15}
